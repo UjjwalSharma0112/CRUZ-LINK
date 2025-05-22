@@ -37,3 +37,6 @@ We participated in the **TECHSPRINT Hackathon** held at **Graphic Era University
 - **Twilio** – for sending emergency messages and alerts  
 
 ---
+## Design for AI Assistant
+![SystemDesign for cruz](https://github.com/user-attachments/assets/fb3d1049-813b-4018-b606-fbcea93446b2)
+
