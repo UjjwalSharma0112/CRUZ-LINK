@@ -1,8 +1,8 @@
 // utils/gemini.ts
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import axios from "axios";
-
-const genAI = new GoogleGenerativeAI("AIzaSyAtJkBqb-bIqiJoSD-AfPLSQkn9X_JzPok");
+const GEMINI_KEY=process.env.GEMINIKEY
+const genAI = new GoogleGenerativeAI(GEMINI_KEY);
 
 export const getGeminiResponse = async (prompt: string) => {
   try {
